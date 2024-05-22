@@ -1,0 +1,106 @@
+.app-container {
+  background-color: #9ba9eb;
+  background-size: cover;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second1-container {
+  background-color: #5763a5;
+  width: 900px;
+  height: 700px;
+  border-radius: 10px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second2-container {
+  background-color: #5763a5;
+  width: 900px;
+  height: 700px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.password-manager-logo {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+}
+.password-logo {
+  align-items: flex-start;
+}
+.forn-container {
+  background-color: #454f84;
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+.password-manager-lg {
+  width: 300px;
+  height: 300px;
+}
+.website-icon {
+  height: 30px;
+  width: 30px;
+  background-color: #f1f5f9;
+}
+.input-text {
+  background-color: #f1f5f9;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  width: 350px;
+  height: 30px;
+}
+.input-and-icon {
+  display: flex;
+  margin-left: 15px;
+  margin: 8px;
+}
+.button {
+  background-color: #0b69ff;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-width: 0px;
+  border-radius: 10px;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.passwordCount-serach-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.para-passwordCount {
+  color: #f1f5f9;
+  font-size: 30px;
+}
+.Show-password {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  color: #f1f5f9;
+}
+.unorder-list {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+password-para-no {
+  color: white;
+  font-size: 25px;
+}
