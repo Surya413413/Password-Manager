@@ -58,6 +58,9 @@ class UserLogin extends Component {
     }
     this.setState(previous => ({
       userList: [...previous.userList, newUserList],
+      websiteInput: '',
+    usernameInput: '',
+    passwordInput: '',
     }))
     this.setState(prevous => ({passwordCount: prevous.passwordCount + 1}))
   }
@@ -124,6 +127,7 @@ class UserLogin extends Component {
                 placeholder="Enter Website"
                 className="input-text"
                 onChange={this.onChangeWebsite}
+                value={websiteInput}
               />
             </div>
             <div className="input-and-icon">
@@ -137,6 +141,7 @@ class UserLogin extends Component {
                 placeholder="Enter Username"
                 className="input-text"
                 onChange={this.onChangeUsername}
+                value={usernameInput}
               />
             </div>
             <div className="input-and-icon">
@@ -150,6 +155,7 @@ class UserLogin extends Component {
                 placeholder="Enter Password"
                 className="input-text"
                 onChange={this.onChangePassword}
+               value={passwordInput}
               />
             </div>
             <div className="button-container">
